@@ -11,7 +11,3 @@ col1 = st.column(1)
 with col1:
   keplergl_static(map_1)
   
-
-    if height is None:
-        height = fig.height
-    return components.html(html, height=height + 10, width=width)
