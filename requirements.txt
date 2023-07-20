@@ -1,2 +1,4 @@
 streamlit
 keplergl
+geopandas
+pandas
