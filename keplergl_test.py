@@ -6,3 +6,7 @@ st.write("This is a kepler.gl map in streamlit")
 
 map_1 = KeplerGl()
 keplergl_static(map_1)
+
+col1 = st.column(1)
+with col1:
+  keplergl_static(map_1)
